@@ -5,5 +5,17 @@
   <groupId>com.paradigm.library</groupId>
   <artifactId>sdkdependencies_gdt</artifactId>
   <version>1.0.1</version>
-  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <artifactId>GDTSDK.unionNormal.4.110.980</artifactId>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
 </project>
